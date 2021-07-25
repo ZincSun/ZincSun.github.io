@@ -1,6 +1,6 @@
 ---
 layout: post
-title: The Power of Randomness : The Monte Carlo Algorithm in Physics
+title: The Power of Randomness The Monte Carlo Algorithm in Physics
 categories: StatisticalPhys
 ---
 
