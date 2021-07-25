@@ -12,3 +12,5 @@ if you have anything want to discuss.
 (My email address is in the icon at the bottom of the page.)
 
 # About the Site
+
+The icon of the website (upper-left corner) is created by my friend **Simon Rau**. The illustration is a literally "entangled" pair of spins. :)
