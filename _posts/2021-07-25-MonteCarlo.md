@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Some articles are just so long they deserve a really long title to see if things will break well
+title: The Power of Randomness : The Monte Carlo Algorithm in Physics
 categories: StatisticalPhys
 ---
 
