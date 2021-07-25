@@ -10,3 +10,5 @@ a place to share the topics I find interesting, and explain them based on my per
 if you have anything want to discuss. 
 
 (My email address is in the icon at the bottom of the page.)
+
+### About the Site
