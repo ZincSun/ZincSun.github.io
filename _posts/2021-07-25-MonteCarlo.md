@@ -1,7 +1,7 @@
 ---
 layout: post
-title: The Power of Randomness : Monte Carlo Algotihm in Physics
-categories: Statistical Physics
+title: Some articles are just so long they deserve a really long title to see if things will break well
+categories: Miscellaneous
 ---
 
 The Monte Carlo Algorithm is one of the most important 
