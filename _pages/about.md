@@ -1,6 +1,6 @@
 ---
 layout: page
-title: About
+title: About Me
 permalink: /about/
 ---
 
@@ -11,4 +11,4 @@ if you have anything want to discuss.
 
 (My email address is in the icon at the bottom of the page.)
 
-### About the Site
+## About the Site
