@@ -4,7 +4,7 @@ title: About Me
 permalink: /about/
 ---
 
-Hi! My name is Shin Sun. I work as a research assistant at Department of Chemistry, National Taiwan University. My research interest
+Hi! My name is **Shin Sun**. I work as a research assistant at Department of Chemistry, National Taiwan University. My research interest
 lies in the intersection of Quantum Information Theory, Physical Chemistry, Computer Science, and Mathematics. Therefore, I created this blog as
 a place to share the topics I find interesting, and explain them based on my knowledge. So, be prepared, because we are going to explore the fascinating quantum world
 together.
