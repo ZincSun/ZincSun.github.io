@@ -10,7 +10,8 @@ a place to share the topics I find interesting, and explain them based on my kno
 together.
 
 Please feel free to contact me if you have anything want to discuss. 
-(My email address is in the icon at the bottom of the page.)
+
+My email address is in the icon at the bottom of the page.
 
 # About the Site
 
