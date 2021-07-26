@@ -14,4 +14,5 @@ Please feel free to contact me if you have anything want to discuss.
 
 # About the Site
 
+The website is hosted on github based on the amazing template called **Reverie** (https://jekyllthemes.io/theme/reverie).
 The icon of the website (upper-left corner) is created by my friend **Simon Rau**. The illustration is a literally "entangled" pair of spins. :)
