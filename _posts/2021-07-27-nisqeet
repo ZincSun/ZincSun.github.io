@@ -1,0 +1,23 @@
+---
+layout : post
+title : Simulating Open Quantum System Dynamics on Noisy Quantum Computers
+categories : research
+---
+Quantum Computers are not a fantasy anymore. Everyone can access a free quantum computer through cloud services like IBM Quantum Experience. However, do quantum computers outperform classical computers when solving physics or chemistry problems?
+
+Not really.
+
+Although it is conjectured that quantum computers with several hundred qubits are expected to outperform classical computers for the simulation of physical systems, the device noises severely limit their practical performance. The quantum decoherence effect induced by the environment could destroy the quantum superposition of qubit states, which render your quantum computers lose their "quantumness" and behaved classically. The decoherence makes performing quantum computation a race against the clock. Researchers worldwide are working very hard to design better quantum hardware and devise more resource-efficient algorithms to demonstrate quantum advantage for real-world problems as soon as possible.
+
+In my final year at college, my thesis advisor and I conceived a novel scheme to directly utilize the intrinsic noises of superconducting quantum computers to do something useful! The idea of turning noises from enemies to allies itself is not entirely new and can be traced back to the pioneering work of Seth Lloyd. However, the experimental proposal and detailed implementation are rarely discussed in previous literature. 
+
+Our implementation for using quantum noises to simulate open quantum systems is surprisingly simple and can be efficiently performed on current noisy quantum computers. Basically, we know quantum gates are imperfect so that they naturally induce decoherence effect into the quantum computers, so we append a certain sequence of quantum gates which ideally correspond to the identity gates (we called them decoherence-inducing gates) before the time evolution circuit of the system we want to simulate. The overall effect should be that our simulated system is constantly perturbed by the environmental fluctuations through system-bath interactions, just like a real-world open quantum system, and the number of decoherence-inducing gates should correspond to different system-bath interaction strengths!
+
+However, if you just use some random identity gates as decoherence-inducing gates (like (X)^2), the simulated dynamics will be un-physical in most cases. This is due to the nature of the quantum gate noises. The gates noises on superconducting quantum computers are actually comprised of two kinds of errors. 
+The systematic error in the decoherence-inducing gates actually corresponds to a non-equilibrium environment throughout the time evolution, which is not physical in realistic systems. Therefore, we must adopt some strategies to eliminate the systematic errors and leave only random errors in the decoherence-inducing gates in order to mimic realistic system-environment interactions.
+
+Therefore, after using some "tailored" gate sequence, we can successfully simulate the open quantum system dynamics for simple energy transfer systems with system-bath interactions strengths, and they are also in excellent agreement with a computational-demanding exact algorithm on classical computers. We also found that the amount of quantum noises on superconducting quantum computers is controllable to a certain degree. Using a simple calibration protocol for the noise strengths, we can freely simulate open system quantum dynamics at a range of system-bath interactions strengths. This makes it possible to use noisy quantum computers as a promising platform for accurate simulation of open quantum system dynamics.
+
+In summary, our research shed light on the possibility of utilizing quantum noises to perform simulations of open systems accurately, and we hope that this can help us investigate complex dynamics in open quantum systems beyond what classical computers can do for us.
+
+For anyone who wants to know more about the work, please refer to our paper on arXiv.
